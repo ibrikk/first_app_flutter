@@ -24,11 +24,21 @@ class _MyAppState extends State<MyApp> {
     },
     {
       'questionText': 'What\'s your favourite animal?',
-      'answers': ['Giraffe', 'Zebra', 'Crocodile', 'Whale']
+      'answers': [
+        {'text': 'Giraffe', 'score': 10},
+        {'text': 'Zebra', 'score': 5},
+        {'text': 'Crocodile', 'score': 15},
+        {'text': 'Whale', 'score': 15}
+      ]
     },
     {
       'questionText': 'What\'s your favourite movie?',
-      'answers': ['Men In Black', 'Avatar', 'Titanic', 'Die Hard']
+      'answers': [
+        {'text': 'Men In Black', 'score': 15},
+        {'text': 'Avatar', 'score': 1},
+        {'text': 'Titanic', 'score': 5},
+        {'text': 'Die Hard', 'score': 10}
+      ]
     },
   ];
 
